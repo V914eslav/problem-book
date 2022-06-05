@@ -8,7 +8,7 @@ class RandomTaskgenerator extends Component {
       randomNumber: 0,
       showTask: false,
     };
-  }
+   }
 
   componentDidMount() {}
 
@@ -42,3 +42,4 @@ class RandomTaskgenerator extends Component {
 }
 
 export default RandomTaskgenerator;
+
