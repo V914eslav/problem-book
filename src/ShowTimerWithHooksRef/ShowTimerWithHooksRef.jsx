@@ -6,7 +6,7 @@ function setDefaultValue() {
   return userCount ? +userCount : 0;
 }
 
-function ShowTimerHooks() {
+function ShowTimerWithHooksRef() {
   const [isTimer, setTimer] = useState(false);
 
   const toggleTimer = () => {
@@ -20,4 +20,4 @@ function ShowTimerHooks() {
     </div>
   );
 }
-export default ShowTimerHooks;
+export default ShowTimerWithHooksRef;
