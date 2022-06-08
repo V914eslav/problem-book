@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ShowTimerWithHooksReducer from "../ShowTimerWithHooksReducer/ShowTimerWithHooksReducer";
+import ShowTimerClass from "../ShowTimerClass/ShowTimerClass";
 
 class RandomTaskgenerator extends Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class RandomTaskgenerator extends Component {
       <div>
         <button onClick={this.generateTask}>Generate task</button>
         {this.state.showTask && <div>{this.taskList[randomNumber]}</div>}
-        <ShowTimerWithHooksReducer />
+        <ShowTimerClass />
       </div>
     );
   }

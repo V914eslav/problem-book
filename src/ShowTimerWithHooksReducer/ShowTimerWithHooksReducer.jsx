@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import TimerHooks from "./TimerHooks/TimerHooks";
+import TimerWithHooksReducer from "./TimerWithHooksReducer/TimerWithHooksReducer";
 
 function setDefaultValue() {
   const userCount = localStorage.getItem("count");
@@ -16,7 +16,7 @@ function ShowTimerWithHooksReducer() {
   return (
     <div className="timer">
       <button onClick={toggleTimer}>Show Timer</button>
-      {isTimer && <TimerHooks />}
+      {isTimer && <TimerWithHooksReducer />}
     </div>
   );
 }

@@ -5,7 +5,7 @@ function setDefaultValue() {
   return userCount ? +userCount : 0;
 }
 
-function TimerHooks() {
+function TimerWIthHooksRef() {
   const [count, setCount] = useState(setDefaultValue());
   const [isCounting, setIsCount] = useState(false);
   const timerIdRef = useRef(null);
@@ -53,4 +53,4 @@ function TimerHooks() {
     </div>
   );
 }
-export default TimerHooks;
+export default TimerWIthHooksRef;
