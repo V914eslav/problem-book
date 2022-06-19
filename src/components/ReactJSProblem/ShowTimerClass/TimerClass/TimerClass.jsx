@@ -42,24 +42,6 @@ class TimerClass extends Component {
     this.handleStop();
   }
 
-  // useEffect(() => {
-  //   localStorage.setItem("count", count);
-  // }, [count]);
-
-  // useEffect(() => {
-  //   if (isCounting) {
-  //     timerIdRef.current = setInterval(() => {
-  //       setCount((prevCount) => {
-  //         return prevCount + 1;
-  //       });
-  //     }, 1000);
-  //   }
-
-  //   return () => {
-  //     timerIdRef.current && clearInterval(timerIdRef.current);
-  //     timerIdRef.current = 0;
-  //   };
-  // }, [isCounting]);
   render() {
     return (
       <div>
