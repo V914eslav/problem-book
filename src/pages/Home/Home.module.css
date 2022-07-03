@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+  height: calc(100vh - 200px);
+}
+.link {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  text-align: center;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
